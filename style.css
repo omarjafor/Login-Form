@@ -92,3 +92,69 @@ form .inputbox input{
     outline: none;
 }
 
+form .inputbox ion-icon{
+    position: absolute;
+    top: 40px;
+    right: 2px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.forgetcheck{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgetcheck label{
+    color: white;
+    margin-right: 17px;
+}
+
+.forgetcheck a{
+    color: white;
+    text-decoration: none;
+}
+
+.forgetcheck a:hover{
+    color: rgb(180, 175, 175);
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.btn{
+    height: 40px;
+    width: 100%;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    border: none;
+    transition: .5s ease-in;
+}
+
+.register-forget{
+    text-align: center;
+}
+.register-forget p{
+    color: white;
+}
+.register-forget p a{
+    color: white;
+    font-weight: 600;
+    margin-left: 3px;
+    text-decoration: none;
+}
+.register-forget p a:hover{
+    text-decoration: underline;
+    color: rgb(184, 207, 231);
+    transition: .4s;
+}
